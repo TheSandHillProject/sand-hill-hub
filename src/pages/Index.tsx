@@ -26,7 +26,7 @@ const Index = () => {
         >
           <h1 className="text-4xl md:text-5xl font-bold mb-4">The Sand Hill Project</h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            A open source community dedicated to giving subject matter experts direct control over the tools of the AI era.
+            An open source community dedicated to making AI work for humans by putting cutting edge tools directly in hands of human experts.
           </p>
         </motion.div>
 
