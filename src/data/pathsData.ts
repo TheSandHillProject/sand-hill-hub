@@ -12,7 +12,7 @@ interface PathData {
 const pathsData: PathData[] = [
   {
     title: "Principles",
-    description: "Mathematical foundations of inference based-compute",
+    description: "Mathematical foundations of inference-based compute",
     color: "logo-red",
     longDescription: "This is a deep dive on the fundamentals of modern ML. The curse of dimensionality. Semantic representation in embedding space. \
       Using differentiable models to compute discrete data. Some musings on math and physics in the world of infinite compute.",
