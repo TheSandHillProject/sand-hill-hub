@@ -22,13 +22,13 @@ const PathSection = ({
   const getColorClasses = (colorName: string) => {
     switch(colorName) {
       case 'logo-red':
-        return 'bg-[#FF5F5F]/10 border-[#FF5F5F]/10';
+        return 'bg-[#FF5F5F]/20 border-[#FF5F5F]/20';
       case 'logo-orange':
-        return 'bg-[#FFA63F]/10 border-[#FFA63F]/10';
+        return 'bg-[#FFA63F]/20 border-[#FFA63F]/20';
       case 'logo-blue':
-        return 'bg-[#6EC6E9]/10 border-[#6EC6E9]/10';
+        return 'bg-[#6EC6E9]/20 border-[#6EC6E9]/20';
       default:
-        return 'bg-gray-800/10 border-gray-800/10';
+        return 'bg-gray-800/20 border-gray-800/20';
     }
   };
 
