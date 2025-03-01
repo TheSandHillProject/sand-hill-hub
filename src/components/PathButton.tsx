@@ -21,23 +21,23 @@ const PathButton = ({
   const getColorClasses = (colorName: string, isActive: boolean) => {
     if (isActive) {
       switch(colorName) {
-        case 'primary-purple':
-          return 'bg-[#9b87f5] text-white';
-        case 'secondary-purple':
-          return 'bg-[#7E69AB] text-white';
-        case 'tertiary-purple':
-          return 'bg-[#6E59A5] text-white';
+        case 'logo-red':
+          return 'bg-[#FF5F5F] text-white';
+        case 'logo-orange':
+          return 'bg-[#FFA63F] text-white';
+        case 'logo-blue':
+          return 'bg-[#6EC6E9] text-white';
         default:
           return 'bg-gray-800 text-white';
       }
     } else {
       switch(colorName) {
-        case 'primary-purple':
-          return 'hover:bg-[#9b87f5]/10 text-gray-800';
-        case 'secondary-purple':
-          return 'hover:bg-[#7E69AB]/10 text-gray-800';
-        case 'tertiary-purple':
-          return 'hover:bg-[#6E59A5]/10 text-gray-800';
+        case 'logo-red':
+          return 'hover:bg-[#FF5F5F]/10 text-gray-800';
+        case 'logo-orange':
+          return 'hover:bg-[#FFA63F]/10 text-gray-800';
+        case 'logo-blue':
+          return 'hover:bg-[#6EC6E9]/10 text-gray-800';
         default:
           return 'hover:bg-gray-50 text-gray-800';
       }

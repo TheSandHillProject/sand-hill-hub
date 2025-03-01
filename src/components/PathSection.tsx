@@ -21,12 +21,12 @@ const PathSection = ({
   // Map color strings to TailwindCSS classes
   const getColorClasses = (colorName: string) => {
     switch(colorName) {
-      case 'primary-purple':
-        return 'bg-[#9b87f5]/5 border-[#9b87f5]/10';
-      case 'secondary-purple':
-        return 'bg-[#7E69AB]/5 border-[#7E69AB]/10';
-      case 'tertiary-purple':
-        return 'bg-[#6E59A5]/5 border-[#6E59A5]/10';
+      case 'logo-red':
+        return 'bg-[#FF5F5F]/5 border-[#FF5F5F]/10';
+      case 'logo-orange':
+        return 'bg-[#FFA63F]/5 border-[#FFA63F]/10';
+      case 'logo-blue':
+        return 'bg-[#6EC6E9]/5 border-[#6EC6E9]/10';
       default:
         return 'bg-gray-800/5 border-gray-800/10';
     }
