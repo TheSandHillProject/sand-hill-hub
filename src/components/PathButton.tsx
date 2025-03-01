@@ -33,11 +33,11 @@ const PathButton = ({
     } else {
       switch(colorName) {
         case 'logo-red':
-          return 'hover:bg-[#FF5F5F]/10 text-gray-800';
+          return 'hover:bg-[#FF5F5F]/20 text-gray-800';
         case 'logo-orange':
-          return 'hover:bg-[#FFA63F]/10 text-gray-800';
+          return 'hover:bg-[#FFA63F]/20 text-gray-800';
         case 'logo-blue':
-          return 'hover:bg-[#6EC6E9]/10 text-gray-800';
+          return 'hover:bg-[#6EC6E9]/20 text-gray-800';
         default:
           return 'hover:bg-gray-50 text-gray-800';
       }
