@@ -12,7 +12,7 @@ interface PathData {
 const pathsData: PathData[] = [
   {
     title: "Principles",
-    description: "Foundations of inference based-compute",
+    description: "Mathematical foundations of inference based-compute",
     color: "logo-red",
     longDescription: "This is a deep dive on the fundamentals of modern ML. The curse of dimensionality. Semantic representation in embedding space. \
       Using differentiable models to compute discrete data. Some musings on math and physics in the world of infinite compute.",
@@ -36,7 +36,7 @@ const pathsData: PathData[] = [
   },
   {
     title: "Foundry",
-    description: "Technical stack and backend development of neural networks",
+    description: "Backend development of neural networks",
     color: "logo-orange",
     longDescription: "The Foundry is where we actually dive into the nitty gritty aspects of implementation. \
       Pytorch. Cuda. GPUs vs. CPUs. This is where the rubber meets the road for accelerated compute.",
