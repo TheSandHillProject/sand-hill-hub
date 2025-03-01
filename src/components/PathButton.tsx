@@ -22,11 +22,11 @@ const PathButton = ({
     if (isActive) {
       switch(colorName) {
         case 'logo-red':
-          return 'bg-[#FF5F5F] text-white';
+          return 'bg-[#FF5F5F]/10 text-white';
         case 'logo-orange':
-          return 'bg-[#FFA63F] text-white';
+          return 'bg-[#FFA63F]/10 text-white';
         case 'logo-blue':
-          return 'bg-[#6EC6E9] text-white';
+          return 'bg-[#6EC6E9]/10 text-white';
         default:
           return 'bg-gray-800 text-white';
       }
