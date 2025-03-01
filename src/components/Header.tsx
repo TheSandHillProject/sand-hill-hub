@@ -8,7 +8,7 @@ const Header = () => {
         <img 
           src="/lovable-uploads/b886e2e6-c532-47d4-923d-ca1476cf06ea.png" 
           alt="The Sand Hill Project Logo" 
-          className="h-24 md:h-32 object-contain mb-4 md:mb-0"
+          className="h-24 md:h-32 object-contain mb-2 md:mb-0"
         />
       </div>
     </header>
