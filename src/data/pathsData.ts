@@ -24,7 +24,7 @@ const pathsData: PathData[] = [
       },
       {
         title: "Source Material",
-        description: "Websites, Papers and Videos that I've found useful in learning the basics of modern ML and AI",
+        description: "Websites, Papers and Videos that I've found useful in learning the basics of modern ML.",
         link: "#material"
       },
       {
