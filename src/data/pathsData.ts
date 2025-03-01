@@ -80,7 +80,7 @@ const pathsData: PathData[] = [
         link: "#compliance"
       },
       {
-        title: "Wave Functions & Promptin Engineering",
+        title: "Wave Functions & Prompt Engineering",
         description: "How to get the most out of the application layer of inference based models. ",
         link: "#scale"
       }
