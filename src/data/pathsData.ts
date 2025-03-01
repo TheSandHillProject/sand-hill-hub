@@ -12,19 +12,20 @@ interface PathData {
 const pathsData: PathData[] = [
   {
     title: "Principles",
-    description: "Core values and guidelines",
+    description: "Foundations of inference based-compute",
     color: "logo-red",
-    longDescription: "Discover the foundational principles that guide our open source community. These principles shape everything we do and ensure we stay true to our mission.",
+    longDescription: "This is a deep dive on the fundamentals of modern ML. The curse of dimensionality. Semantic representation in embedding space. \
+      Using differentiable models to compute discrete data. Some musings on math and physics in the world of infinite compute.",
     projects: [
       {
-        title: "Open Source Manifesto",
-        description: "Our core beliefs and commitments to open source development.",
+        title: "Our Story & Mission",
+        description: "How a physicist left Physics™ and traversed the Valley of Death",
         link: "#manifesto"
       },
       {
-        title: "Contributor Guidelines",
-        description: "How to contribute effectively to our projects and community.",
-        link: "#guidelines"
+        title: "Source Material",
+        description: "Websites, Papers and Videos that I've found useful in learning the basics of modern ML and AI",
+        link: "#material"
       },
       {
         title: "Ethical Framework",
@@ -35,51 +36,52 @@ const pathsData: PathData[] = [
   },
   {
     title: "Foundry",
-    description: "Incubation projects and initiatives",
+    description: "Technical stack and backend development of neural networks",
     color: "logo-orange",
-    longDescription: "The Foundry is where new ideas are born and nurtured. Explore our incubation projects that are shaping the future of open source technology.",
+    longDescription: "The Foundry is where we actually dive into the nitty gritty aspects of implementation. \
+      Pytorch. Cuda. GPUs vs. CPUs. This is where the rubber meets the road for accelerated compute.",
     projects: [
       {
         title: "Project Alpha",
-        description: "A cutting-edge data visualization library for complex datasets.",
+        description: "Build and train a Transformer Model with your own data",
         link: "#alpha"
       },
       {
         title: "Project Beta",
-        description: "Simplified machine learning tools for developers of all skill levels.",
+        description: "Stable Diffusion and high-precision numerical time-series prediction",
         link: "#beta"
       },
       {
         title: "Project Gamma",
-        description: "Next-generation authentication system with enhanced security.",
+        description: "Data summary and heirarchical language through symbol chunking.",
         link: "#gamma"
       },
       {
         title: "Project Delta",
-        description: "Open source infrastructure for decentralized applications.",
+        description: "Building an ontology for diverse software and unstructured data.",
         link: "#delta"
       }
     ]
   },
   {
     title: "Enterprise",
-    description: "Solutions for organizations",
+    description: "How to build the future with open-source dev tools",
     color: "logo-blue",
-    longDescription: "Our Enterprise path focuses on providing robust open source solutions that meet the needs of organizations of all sizes.",
+    longDescription: "",
     projects: [
       {
-        title: "Enterprise Framework",
-        description: "Comprehensive tools for integrating open source into enterprise environments.",
-        link: "#framework"
+        title: "Source Material",
+        description: "A bunch of awesome tools and open source software that make up my AI productivity stack.",
+        link: "#material"
       },
       {
-        title: "Compliance Toolkit",
-        description: "Tools and resources for maintaining compliance while using open source.",
+        title: "Some Killer Apps",
+        description: "Here are some fun apps that I've built using these tools that took less than a day.",
         link: "#compliance"
       },
       {
-        title: "Scale Solution",
-        description: "Infrastructure solutions for scaling open source applications.",
+        title: "Wave Functions & Promptin Engineering",
+        description: "How to get the most out of the application layer of inference based models. ",
         link: "#scale"
       }
     ]
