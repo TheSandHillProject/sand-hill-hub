@@ -13,7 +13,7 @@ const pathsData: PathData[] = [
   {
     title: "Principles",
     description: "Core values and guidelines",
-    color: "gray-800",
+    color: "primary-purple",
     longDescription: "Discover the foundational principles that guide our open source community. These principles shape everything we do and ensure we stay true to our mission.",
     projects: [
       {
@@ -36,7 +36,7 @@ const pathsData: PathData[] = [
   {
     title: "Foundry",
     description: "Incubation projects and initiatives",
-    color: "gray-700",
+    color: "secondary-purple",
     longDescription: "The Foundry is where new ideas are born and nurtured. Explore our incubation projects that are shaping the future of open source technology.",
     projects: [
       {
@@ -64,7 +64,7 @@ const pathsData: PathData[] = [
   {
     title: "Enterprise",
     description: "Solutions for organizations",
-    color: "gray-900",
+    color: "tertiary-purple",
     longDescription: "Our Enterprise path focuses on providing robust open source solutions that meet the needs of organizations of all sizes.",
     projects: [
       {
